@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+body{
+    font-family: fantasy, Helvetica, sans-serif;
+    background-color: black;
+
+}
+
+main{
+    border-radius: 10px;
+    width:16px;
+    margin: auto;
+    
+}
+h1{
+    color: red;
+    text-align: center;
+}

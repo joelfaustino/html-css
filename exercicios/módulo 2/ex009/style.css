@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+body{
+    background-color: #f4f4f4;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+div >.menu{
+    display: none;
+}
+
+div:hover >.menu{
+    display: block;
+    width: 200px;
+}
+
+
+
