@@ -64,7 +64,7 @@ section {
 }
 
 .imagem p {
-    width: 400px;
+    width: 300px;
     background-color: rgba(0, 0, 0, 0.322);
 }
 
@@ -75,5 +75,5 @@ footer {
     color: white;
     background-color: black;
     text-align: center;
-    padding: 10px;
+    padding: 20px;
 }
