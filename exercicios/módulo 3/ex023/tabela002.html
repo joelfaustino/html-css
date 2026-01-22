@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 40px 0;
+                
+                h1 {
+                    text-align: center;
+                    margin-bottom: 20px;
+                }
+            
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+            margin: auto;
+        }
+
+        caption {
+            font-size: 24px;
+            font-weight: bold;
+            background-color: lightgray;
+            padding: 10px;
+            
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        thead, tfoot {
+            background-color: rgb(54, 54, 54);
+            color: white;
+            
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Uso de Tabelas Grandes</h1>
+
+    <!--
+        Anatomia de TABELAS GRANDE
+        TABLE  
+            CAPTION
+            THEAD
+                TR, TD, TH
+
+            TBODY
+                TR, TD, TH
+
+            TFOOT
+                TR, TD, TH
+
+    -->
+
+        <table>
+            <caption>População do Brasil</caption>
+            <thead>
+                <tr>
+                    <th scope="col" style="width: 300px;">Estado</th>
+                    <th scope="col">População</th>
+                </tr>
+
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>São Paulo</td>
+                    <td>10.000</td>
+                </tr>
+
+                <tr>
+                    <td>Minas Gerais</td>
+                    <td>20.000</td>
+                </tr>
+
+                <tr>
+                    <td>Rio de Janeito</td>
+                    <td>20.000</td>
+                </tr>
+
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <th scope="row">Total de Habitantes</th>
+                    <td>50.000</td>
+                </tr>
+            </tfoot>
+        </table>
+
+</body>
+</html>
