@@ -1,40 +1,40 @@
 <!DOCTYPE html>
 <html lang="pt">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Form</title>
 </head>
+
 <body>
-    <form action="cadastro.php">
-        <p>
-            <label for="icor">
-                Cor:
-                <input type="color" name="cor" id="icor">
-            </label>
-        </p>
+    <h1>Exemplo de Formulário</h1>
 
-        <p>
-            <label for="inivel">Nível de Satisfação: </label>
-            <input type="range" name="nivel" id="inivel" min="1">
-        </p>
+    <form action="cadastro1.php" method="get" >
+        <fieldset re>
+            <legend>Sexo</legend>
 
-        <p>
-            <input type="file" name="foto" id="ifoto">
-        </p>
+            <input type="radio" name="sx" id="sxmas" value="M" requid>
+            <label for="sxmas">Masculino</label> <br>
 
+            <input type="radio" name="sx" id="sxfem">
+            <label for="sxmas">Femenino</label>
+        </fieldset>
 
+        <fieldset>
+            <legend>Esportes Favoritos</legend>
+            <input type="checkbox" name="esbask" id="1">
+            <label for="1">Basketball</label>
+            <br>
+            <input type="checkbox" name="esfut" id="2">
+            <label for="2">Futebol</label>
+        </fieldset>
         <p>
             <input type="submit" value="Enviar">
             <input type="reset" value="Limpar">
-
         </p>
-
-        <p>
-            <input type="color" name="" id="">
-        </p>
-
     </form>
-    
+
 </body>
+
 </html>

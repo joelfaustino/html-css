@@ -1,0 +1,10 @@
+@charset "UFT-8";
+
+/*
+    APARELHO DEITADO (portrait)
+*/
+
+body {
+    background-image: url('../images/cev-portrait.jpg');
+    background-position: center bottom;
+}

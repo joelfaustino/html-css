@@ -1,0 +1,11 @@
+@charset "UFT-8";
+
+/*
+    APARELHO EM PÉ  (ladscape)
+*/
+
+body {
+    background-image: url('../images/cev-landscape.jpg');
+    background-position: left bottom;
+
+}
